@@ -2,11 +2,13 @@
 
 **Implementación del patrón producer-consumer** para procesamiento concurrente de imágenes satelitales con Python, multiprocessing y sincronización segura.
 
-**Sistema concurrente** que simula recepción/procesamiento de imágenes satelitales usando Python. **Productor** (hilo) genera imágenes a buffer compartido, 
+**Sistema concurrente** que simula recepción/procesamiento de imágenes satelitales usando Python.
 
-**consumidores** (procesos) las procesan en paralelo. **Buffer FIFO** con sincronización segura. Ejecutar con `python satelite.py` (25 imágenes demo). Stats finales 
+**Productor** (hilo) genera imágenes a buffer compartido, 
 
-automáticos.
+**Consumidores** (procesos) las procesan en paralelo.
+
+**Buffer FIFO** con sincronización segura. Ejecutar con `python satelite.py` (25 imágenes ejemplo). 
 
 
 ##  Cómo Ejecutar el Sistema
